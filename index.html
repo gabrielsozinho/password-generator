@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles/index.css">
+    <title>Password Generator</title>
+    <meta name="description" content="A simple password generator made by Gabriel Sozinho">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header class="header">
+        <p class="credits">Made by <a href="https://github.com/gabrielsozinho" class="link link-credits">Gabriel Sozinho</a></p>
+    </header>
+    
+    <main class="main">
+        <div class="container">
+            <h1 class="title">Password Generator</h1>
+            <input type="text" name="" id="password" class="password-input" placeholder="Create password" readonly>
+            <div class="flex">
+                <div id="button-generate-password" class="button-generate-password" onclick="generatePassword()">Generate</div>
+                <a  id="button-copy-password" class="button-copy-password" onclick="copyPassword()">Copy</a>
+             </div>
+             
+        </div>
+    </main>  
+
+  <script src="src/scripts/index.js"></script>
+</body>
+</html>

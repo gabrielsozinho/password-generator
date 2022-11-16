@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100hw;
+    background-color: rgb(79, 0, 181);
+}
+
+header {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.credits {
+    margin-right: 2%;
+    color: white;
+}
+
+.link {
+    color: white;
+    transition: 0.5s;
+}
+
+.link:hover {
+    color: rgb(255, 196, 0);
+    transition: 0.5s;
+}
+
+main {
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 60vw;
+    margin: 0 auto;
+    background-color: rgb(255, 204, 0);
+    padding: 15px;
+    overflow: hidden;
+    box-shadow:  20px 20px 60px #0000004e,
+             -20px -20px 60px #00000022;
+    border-radius: 20px;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+}
+
+.password-input {
+    user-select: none;
+    padding: 20px;
+    height: 3vh;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 20px;
+    outline: none;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    border: 0;
+}
+
+.button-generate-password,
+.button-copy-password {
+    transition: 0.5s;
+    font-size: 1rem;
+    margin-top: 30px;
+    border: 2px solid #7100cf;
+    width: 10vw;
+    padding: 15px 0;
+    text-align: center;
+    background-color: #7100cf;
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-generate-password:hover,
+.button-copy-password:hover {
+    transition: 0.5s;
+    background-color: #921df1;
+}
+
+.button-copy-password{
+    margin-left: 40vw;
+}
+
+.flex{
+    display: flex;
+}
